@@ -1,19 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jun  7 08:36:56 2022
+Created on Wed Jun  8 12:01:50 2022
 
-@author: Alumno
+@author: lab
 """
 
-def direction(calle,barrio,ciudad):
-    print("su direccion es:")
-    print("su ciudad es: ",ciudad)
-    print("El barrio de entrega es: ",barrio)
-    print("La calle de su domicilio es: Av: ",calle)
-    
-ci=input("Ingrese la ciudad")
-cl=input("Ingrese la calle de entrega")
-ba=input("Ingrese el sector de referencia para el entrega")
-
-direction(cl, ba, ci) 
-direction("SO-34, Nueva Aurora, Quito") 
+SUMA=0
+list=[]
+for i in range(1, 11):
+    valor=int(input("ingrese un valor entero : "))
+    list.append(valor)
+    SUMA+=valor
+print("el valor de la suma es: ",SUMA)
+print("el promedio es: ",SUMA/10)
+print("la list es",list) 
