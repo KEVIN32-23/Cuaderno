@@ -1,11 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jun  7 08:08:42 2022
+Created on Fri Jun 10 07:45:33 2022
 
 @author: Alumno
 """
 
-def hi (name) :
-    print("Hi,", name)
-    
-hi("Kevin")
+def saludos(lista):
+    for item in lista:
+        print("Hola",item)
+        
+saludos(["Juan"])
+
+saludos(["Jorge","Juan","Camila","Paul","Arleth","Kevin","Gnady","Jose"])
+
