@@ -1,16 +1,31 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Jun  8 12:01:50 2022
+Created on Fri Jun 17 07:48:15 2022
 
-@author: lab
+@author: User
 """
 
-SUMA=0
-list=[]
-for i in range(1, 11):
-    valor=int(input("ingrese un valor entero : "))
-    list.append(valor)
-    SUMA+=valor
-print("el valor de la suma es: ",SUMA)
-print("el promedio es: ",SUMA/10)
-print("la list es",list) 
+a = 21
+def es_primo(num) :
+    contador=0
+    for i in range(1, num+1) :
+        if num / i == 0:
+            contador += 1
+            print(i)
+            
+    if contador == 2:
+        return True
+    else: 
+        return False
+print(es_primo(2))
+
+
+
+
+
+
+
+
+
+
+    
