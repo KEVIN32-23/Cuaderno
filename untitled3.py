@@ -1,22 +1,27 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Jun 10 08:18:31 2022
+Created on Fri Jul  1 08:40:13 2022
 
 @author: Alumno
 """
-def keyw(**datos):
-    print("\nTipo de datos del argumento:",type(datos))
-    
-    for key, value in datos.items():
-        print("{} is {}".format(key,value))
+
+filas = int(input("Ingrese el numero de filas"))
+columnas = int(input("Ingrese el numero de columnas"))
+
+range (4, 30)
+while filas > 4:
+     print(filas)
+     if filas == 30 :
+         break
+     filas -=30
+     
+matriz = []
+for i in range (filas):
+    matriz.append([])
+    for j in range (columnas):
+        valor = float(input ("Fila {}, columna {} : ".format(i+1, j+1)))
+        matriz[i].append(valor)
         
-keyw(Firstname="Juan",
-     Lastname="Dominguez",
-     Age=42,
-     Phone=1234567890)
-keyw(Firstname="John",
-     Lastname="Wood",
-     Email="johnwood@nomail.com",
-     Country="Wakanda",
-     Age=25,
-     Phone=98765443210)
+print 
+     
+    
